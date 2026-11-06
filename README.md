@@ -558,3 +558,7 @@ Thank you for helping make TaskRelay better!
     - Set `WORKER_MAX_TASKS_PER_CHILD` to a reasonable number (e.g., 1000) to periodically restart worker processes.
 - **Dashboard counters seem incorrect**:
     - Run the counter sync utility: `docker compose run --rm api python utils/fix_counter_sync.py`.
+
+## 15. Author & Maintainer
+
+- **Samarth Khadse** ([@Samarth07-ctrl](https://github.com/Samarth07-ctrl))
